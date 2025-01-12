@@ -23,7 +23,7 @@ const MainContent: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
       <h1 className="text-3xl font-bold mb-4">
-        {theme === "light" ? "Light Mode" : "Dark Mode"}
+        {theme === "light" ? "God Mode" : "Dark God Mode"}
       </h1>
       <button
         onClick={toggleTheme}
